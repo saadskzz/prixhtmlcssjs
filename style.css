@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+
+  justify-content: center;
+  background-color: gray;
+}
+ul li img {
+  border: 1px solid;
+  border-radius: 10px;
+  height: 400px;
+  width: 100px;
+  transition: all 1s ease-in-out;
+}
+li {
+  list-style-type: none;
+  margin: 2px;
+}
+ul li img:hover {
+  cursor: pointer;
+}
+.contain-text {
+  position: relative;
+}
+.contain-text p {
+  position: absolute;
+  top: 87%;
+  color: white;
+  left: 5%;
+
+  opacity: 0;
+}
